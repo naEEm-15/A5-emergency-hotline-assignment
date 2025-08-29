@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="">
+    <header class="max-w-[1905px]">
+        <nav class="flex justify-between items-center h-[100px] px-[60px] py-[24px] flex-wrap gap-2 md:gap-3">
+            <div class="flex gap-2 items-center">
+                <img class="max-w-[50px] h-[50px]" src="assets/logo.png" alt="">
+                <h1 class="font-extrabold text-[#006747]">Emergency <br class="hidden md:block">Service</h1>
+            </div>
+            <div class="flex justify-center items-center gap-3 top-actions flex-wrap">
+                 <button class="btn font-bold text-xl max-w-[106px] h-[52px] items-center rounded-3xl bg-[#41ff6b1a]">
+                    <span id="heartCount">0</span><img src="assets/heart.png" class="h-[30px] w-[30px]" alt="">
+                 </button>
+                 <button class="btn font-bold text-xl max-w-[106px] h-[52px] items-center rounded-3xl bg-[#41ff6b1a]">
+                    <span id="coinCount">100</span><img src="assets/coin.png" class="h-[30px] w-[30px]" alt="">
+                </button>
+                <button class="btn text-white font-bold text-xl max-w-[106px] h-[52px] items-center rounded-3xl bg-[#00a63e] hidden sm:flex">
+                    <span id="copyCount">0</span>Copy
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+    <script src="./script.js"></script>
+</body>
+</html>
